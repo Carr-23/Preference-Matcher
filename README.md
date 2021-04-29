@@ -12,5 +12,7 @@ The model had issues; It was overfitted, images had useless space in background,
 
 Due to these issues, I decided to optimize my dataset first before optimizing my model.
 
+## face_cropper.py {thanks to [tilfin](https://gist.github.com/tilfin/98bbba47fdc4ac10c4069cce5fabd834)}
+
 I created another script that uses OpenCV facial and eye detection to find and crop the images accordingly. This would removed the wasted space (pixels) that the model was reading as input. This would also allow the images to have more facial features per pixel than before.
 This filter also allows for bad selfies to appear.
