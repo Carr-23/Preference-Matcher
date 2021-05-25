@@ -1,4 +1,4 @@
-# ML-Attraction
+# Still in Progress ML-Attraction
 Developed first generation AI machine learning based software designed to predict human interactions with visual based mediums. The dataset was gathered using PRAW on r/selfies.
 
 
